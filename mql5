@@ -1,0 +1,52 @@
+
+// Nasdaq100 Power Indicator
+// Developer's Site: forexroboteasy.com
+// Development: Forex Robot Easy Team
+
+// Trend and Trend Reversal Indicators
+void GenerateArrows(double[] prices)
+{
+    // Code to generate automated arrows indicating buy or sell actions at specific prices
+    // ...
+
+    // Code to ensure accuracy and reliability of the trend and trend reversal indicators
+    // ...
+}
+
+// Signal Provider
+void SignalProvider(string timeframe)
+{
+    // Code to implement a signal provider function that covers all time frames
+    // ...
+
+    // Code to enable alerts for traders to receive timely notifications
+    // ...
+}
+
+// Support and Resistance Functionality
+void DrawTechnicalAnalysisPatterns(double[] closingPrices, double[] openPrices)
+{
+    // Code to identify and draw technical analysis patterns, such as double bottom, double top, and head and shoulders
+    // ...
+
+    // Code to utilize closing and open prices to accurately detect these patterns
+    // ...
+}
+
+// Main function - Entry point of the program
+void OnStart()
+{
+    // Input data - Historical price data for Forex trading
+    double[] historicalPrices = {1.2345, 1.2356, 1.2387, 1.2365, 1.2398, 1.2412};
+
+    // Generate arrows for buy or sell actions
+    GenerateArrows(historicalPrices);
+
+    // Signal provider function for all time frames
+    SignalProvider('H1');
+
+    // Draw technical analysis patterns using closing and open prices
+    double[] closingPrices = {1.2345, 1.2356, 1.2387, 1.2365, 1.2398, 1.2412};
+    double[] openPrices = {1.2334, 1.2358, 1.2376, 1.2362, 1.2389, 1.2410};
+    DrawTechnicalAnalysisPatterns(closingPrices, openPrices);
+}
